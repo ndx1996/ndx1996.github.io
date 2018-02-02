@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MY HEXO</title>
+  
+  <subtitle>MY HEART WILL GO&amp;ON</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-01-31T16:00:00.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>ndx</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前后端的交互</title>
+    <link href="http://yoursite.com/2018/02/01/article/"/>
+    <id>http://yoursite.com/2018/02/01/article/</id>
+    <published>2018-02-01T06:09:13.000Z</published>
+    <updated>2018-01-31T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="data" scheme="http://yoursite.com/categories/data/"/>
+    
+    
+      <category term="sina" scheme="http://yoursite.com/tags/sina/"/>
+    
+      <category term="anjax" scheme="http://yoursite.com/tags/anjax/"/>
+    
+      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+    
+      <category term="php" scheme="http://yoursite.com/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github的简单攻略</title>
+    <link href="http://yoursite.com/2018/01/30/github1/"/>
+    <id>http://yoursite.com/2018/01/30/github1/</id>
+    <published>2018-01-29T16:00:00.000Z</published>
+    <updated>2018-02-01T06:58:25.079Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&amp;emsp;&amp;emsp;相信对于许多从事计算机行业或是程序开发的小伙伴来说&lt;strong&gt;Github&lt;/strong&gt;并不陌生，网上也有许多资料，那本篇文章是我作为一个初入前端的菜鸟的一些学习心得（大神请绕道），针对那些没用过或不知道github的小白们的一个扫盲。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="GitHub" scheme="http://yoursite.com/categories/GitHub/"/>
+    
+    
+      <category term="sina" scheme="http://yoursite.com/tags/sina/"/>
+    
+      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello world</title>
+    <link href="http://yoursite.com/2018/01/25/hello-world/"/>
+    <id>http://yoursite.com/2018/01/25/hello-world/</id>
+    <published>2018-01-25T07:30:16.189Z</published>
+    <updated>2018-02-01T03:18:48.479Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="lala" scheme="http://yoursite.com/tags/lala/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>移动端的适配</title>
+    <link href="http://yoursite.com/2018/01/15/article2/"/>
+    <id>http://yoursite.com/2018/01/15/article2/</id>
+    <published>2018-01-15T07:09:37.000Z</published>
+    <updated>2018-02-01T07:15:55.442Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://www.baidu.com&quot; alt=&quot;Image text&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;一些我在久游网实习期间关于移动端适配的小技巧&lt;br&gt;
+    
+    </summary>
+    
+      <category term="way" scheme="http://yoursite.com/categories/way/"/>
+    
+    
+      <category term="sina" scheme="http://yoursite.com/tags/sina/"/>
+    
+      <category term="meta" scheme="http://yoursite.com/tags/meta/"/>
+    
+  </entry>
+  
+</feed>
