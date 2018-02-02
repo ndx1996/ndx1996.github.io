@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[前后端的交互]]></title>
     <url>%2F2018%2F02%2F01%2Farticle%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[前言&emsp;&emsp;身为一名前端工程师，非常需要了解一点后端知识，这样既可以在工作中与后端开发者更好的合作，也是对自身开发的一个提高。本篇文章，是我对前后端交互知识一些记录，在未来也会不断去更新和整理。 前后端交互1、搭建环境（PS：以下软件的安装如有问题请自行百度，网上资料比较齐全，大部分应该没什么问题） mysql：免费的数据库管理系统，作为学习用是非常适合的 php：处理数据库的超文本预处理器 phpmyadmin：是一个以PHP为基础，以Web-Base方式架构在网站主机上的MySQL的数据库管理工具，让管理者可用Web接口管理MySQL数据库。 看到这里或许有些小伙伴会吐槽，要装那么多]]></content>
       <categories>
         <category>data</category>
       </categories>
