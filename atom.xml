@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-31T16:00:00.000Z</updated>
+  <updated>2018-02-05T07:33:08.951Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>notepad</title>
+    <link href="http://yoursite.com/2018/02/05/notepad/"/>
+    <id>http://yoursite.com/2018/02/05/notepad/</id>
+    <published>2018-02-05T01:31:09.000Z</published>
+    <updated>2018-02-05T07:33:08.951Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Github&quot;&gt;&lt;a href=&quot;#Github&quot; class=&quot;headerlink&quot; title=&quot;Github&quot;&gt;&lt;/a&gt;Github&lt;/h1&gt;&lt;p&gt;1、保存代码，public，任何人都可以访问，private付费会员&lt;br&gt;2、协同开发，修改别人的代码&lt;b
+      
+    
+    </summary>
+    
+      <category term="note" scheme="http://yoursite.com/categories/note/"/>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
   
   <entry>
     <title>前后端的交互</title>
