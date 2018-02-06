@@ -365,8 +365,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-02-05T15:33:08+08:00">
-                2018-02-05
+              <time title="更新于" itemprop="dateModified" datetime="2018-02-06T16:50:21+08:00">
+                2018-02-06
               </time>
             
           </span>
@@ -427,7 +427,15 @@
 <p>request请求<br>pull request提交一个改变<br>push推<br>merge合并<br>fetch获取<br>publish发布<br>repository库</p>
 <p><strong>let</strong>声明为局部变量</p>
 <p>箭头函数<br>函数名=参数名=&gt;返回值</p>
-
+<p>图片预览<br>files对象<br>Filelist：上传文件的数据保存在Filelist中，类型是数组</p>
+<p><input type="file" id="icon" multiple><br>multiple:input可以上传多个文件，按住Ctrl键+多个文件</p>
+<hr>
+<h2 id="FileReader对象"><a href="#FileReader对象" class="headerlink" title="FileReader对象"></a>FileReader对象</h2><p>读取图片对象</p>
+<h2 id="readAsDataURL-方法"><a href="#readAsDataURL-方法" class="headerlink" title="readAsDataURL()方法"></a>readAsDataURL()方法</h2><p>把图片读取为DataURL格式<br><strong>Filereader</strong>的事件</p>
+<blockquote>
+<p>load——加载成功<br>loadend——加载结束</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">	&lt;head&gt;</span><br><span class="line">		&lt;meta charset=<span class="string">"UTF-8"</span>&gt;</span><br><span class="line">		&lt;title&gt;tt&lt;/title&gt;</span><br><span class="line">	&lt;/head&gt;</span><br><span class="line">	&lt;body&gt;</span><br><span class="line">		&lt;input <span class="built_in">type</span>=<span class="string">"file"</span> id=<span class="string">"icon"</span> multiple/&gt;</span><br><span class="line">		&lt;img class=<span class="string">"preview"</span> src=<span class="string">"img/head.jpg"</span> style=<span class="string">"width: 200px;height: 200px"</span> alt=<span class="string">""</span> /&gt;</span><br><span class="line">		&lt;script&gt;</span><br><span class="line">			var preview=document.querySelector(<span class="string">'.preview'</span>);</span><br><span class="line">			var fr=new FileReader();</span><br><span class="line">			var icon=document.querySelector(<span class="string">'#icon'</span>);</span><br><span class="line">			icon.addEventListener(<span class="string">'change'</span>, <span class="function"><span class="title">function</span></span>()&#123;</span><br><span class="line">				//验证大小</span><br><span class="line">				<span class="keyword">if</span>(this.files[0].size&gt;1024*1024)</span><br><span class="line">				&#123;</span><br><span class="line">					console.log(<span class="string">'wrong1'</span>);</span><br><span class="line">					<span class="built_in">return</span> <span class="literal">false</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				//验证类型</span><br><span class="line">				<span class="keyword">if</span>(!/image/.<span class="built_in">test</span>(this.files[0].<span class="built_in">type</span>))&#123;</span><br><span class="line">					console.log(<span class="string">"wrong2"</span>);</span><br><span class="line">					<span class="built_in">return</span> <span class="literal">false</span>;</span><br><span class="line">				&#125;</span><br><span class="line">				//把上传文件读取到filereader中</span><br><span class="line">				fr.readAsDataURL(this.files[0]);</span><br><span class="line">				//fr加载文件成功后事件</span><br><span class="line">				//this.result:文件的数据</span><br><span class="line">				fr.addEventListener(<span class="string">'load'</span>, <span class="function"><span class="title">function</span></span>()&#123;</span><br><span class="line">					console.log(this.result);</span><br><span class="line">					preview.src=this.result;</span><br><span class="line">				&#125;);</span><br><span class="line">				console.log(this.files[0]);</span><br><span class="line">			&#125;);</span><br><span class="line">		&lt;/script&gt;</span><br><span class="line">	&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
           
         
       
