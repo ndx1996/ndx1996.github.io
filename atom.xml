@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-06T09:52:14.926Z</updated>
+  <updated>2018-02-11T08:00:52.389Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,18 +17,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>blog1</title>
+    <link href="http://yoursite.com/2018/02/11/blog1/"/>
+    <id>http://yoursite.com/2018/02/11/blog1/</id>
+    <published>2018-02-11T02:06:53.000Z</published>
+    <updated>2018-02-11T08:00:52.389Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;遇到的一些问题&quot;&gt;&lt;a href=&quot;#遇到的一些问题&quot; class=&quot;headerlink&quot; title=&quot;遇到的一些问题&quot;&gt;&lt;/a&gt;遇到的一些问题&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;&amp;emsp;&amp;emsp;面试一直都是每个求职者面临的一道难题，个人认为自身的技术和运气各占一半。在这几个月之间博主也或多或少的参加了几次面试。简单分享一下我遇到的一些问题（希望对大家在求职过程中有一定帮助吧）。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://yoursite.com/categories/note/"/>
+    
+      <category term="way" scheme="http://yoursite.com/categories/note/way/"/>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
     <title>notepad</title>
     <link href="http://yoursite.com/2018/02/05/notepad/"/>
     <id>http://yoursite.com/2018/02/05/notepad/</id>
     <published>2018-02-05T01:31:09.000Z</published>
-    <updated>2018-02-06T09:52:14.926Z</updated>
+    <updated>2018-02-11T01:58:32.149Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;h1 id=&quot;Github&quot;&gt;&lt;a href=&quot;#Github&quot; class=&quot;headerlink&quot; title=&quot;Github&quot;&gt;&lt;/a&gt;Github&lt;/h1&gt;&lt;p&gt;1、保存代码，public，任何人都可以访问，private付费会员&lt;br&gt;2、协同开发，修改别人的代码&lt;b
-      
+      &lt;h1 id=&quot;Github&quot;&gt;&lt;a href=&quot;#Github&quot; class=&quot;headerlink&quot; title=&quot;Github&quot;&gt;&lt;/a&gt;Github&lt;/h1&gt;&lt;p&gt;1、保存代码，public，任何人都可以访问，private付费会员&lt;br&gt;2、协同开发，修改别人的代码&lt;br&gt;先fork别人的库到自己的账户内，&lt;br&gt;修改代码&lt;br&gt;创建一个改动提交create pull requests&lt;br&gt;对方收到pull requests后，合并提交的改动merge changes&lt;/p&gt;
+&lt;p&gt;request请求&lt;br&gt;pull request提交一个改变&lt;br&gt;push推&lt;br&gt;merge合并&lt;br&gt;fetch获取&lt;br&gt;publish发布&lt;br&gt;repository库&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;let&lt;/strong&gt;声明为局部变量&lt;/p&gt;
+&lt;p&gt;箭头函数&lt;br&gt;函数名=参数名=&amp;gt;返回值&lt;/p&gt;
+&lt;p&gt;图片预览&lt;br&gt;files对象&lt;br&gt;Filelist：上传文件的数据保存在Filelist中，类型是数组&lt;/p&gt;
+&lt;p&gt;&lt;input type=&quot;file&quot; id=&quot;icon&quot; multiple&gt;&lt;br&gt;multiple:input可以上传多个文件，按住Ctrl键+多个文件&lt;/p&gt;
+&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;
     
     </summary>
     
