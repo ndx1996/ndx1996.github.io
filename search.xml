@@ -50,14 +50,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello world]]></title>
-    <url>%2F2018%2F01%2F25%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-      <tags>
-        <tag>lala</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[移动端的适配]]></title>
     <url>%2F2018%2F01%2F15%2Farticle2%2F</url>
     <content type="text"><![CDATA[前言一些我在久游网实习期间关于移动端适配的小技巧 久游移动端的适配1、让设备自适应（px）1&lt;meta name="viewport" content="width=750, target-densitydpi=device-dpi, minimal-ui, user-scalable=no"&gt; 2、如果使用rem的自适应1&lt;meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"&gt;` 此时需要在js中根据屏幕变化配置rem的根font-size 代码如下123456789101112131415161718&lt;script&gt; (function (doc, win) &#123; var docEl = doc.documentElement, resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize', recalc = function () &#123; var clientWidth = docEl.clientWidth; if (!clientWidth) return; if(clientWidth&gt;=750)&#123; docEl.style.fontSize = '100px'; &#125;else&#123; docEl.style.fontSize = 100 * (clientWidth / 750) + 'px'; &#125; &#125;; if (!doc.addEventListener) return; win.addEventListener(resizeEvt, recalc, false); doc.addEventListener('DOMContentLoaded', recalc, false); &#125;)(document, window);&lt;/script&gt; 组件模块 网址：http://jsmodern.applinzi.com/ 一些插件 wow.js （酷炫的按钮特效）swiper.js （移动端滑动效果为主）]]></content>
